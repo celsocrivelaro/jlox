@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c222b467-0233-4162-94e5-f80f0a29170a" name="Changes" comment="Basic Syntactical Analysis analyser">
-      <change afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Parser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/ParserError.java" afterDir="false" />
+    <list default="true" id="c222b467-0233-4162-94e5-f80f0a29170a" name="Changes" comment="Parsing Expressions - chap 6">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Interpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/RuntimeError.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Lox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/craftinginterpreters/lox/Lox.java" afterDir="false" />
     </list>
@@ -39,6 +40,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -111,7 +113,8 @@
       <workItem from="1675289187428" duration="556000" />
       <workItem from="1676311526089" duration="8000" />
       <workItem from="1676334091569" duration="1280000" />
-      <workItem from="1676484583364" duration="422000" />
+      <workItem from="1676484583364" duration="1146000" />
+      <workItem from="1677626296465" duration="844000" />
     </task>
     <task id="LOCAL-00001" summary="Lexical analyser">
       <created>1673726217069</created>
@@ -127,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673869508867</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Parsing Expressions - chap 6">
+      <created>1676485142353</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676485142354</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +146,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lexical analyser" />
     <MESSAGE value="Basic Syntactical Analysis analyser" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic Syntactical Analysis analyser" />
+    <MESSAGE value="Parsing Expressions - chap 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parsing Expressions - chap 6" />
   </component>
 </project>
